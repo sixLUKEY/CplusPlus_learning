@@ -3,8 +3,9 @@
         {
             "type": "cppbuild",
             "label": "C/C++: clang build active file",
-            "command": "/usr/bin/clang",
+            "command": "/usr/bin/clang++",  // Use clang++ for C++ compilation
             "args": [
+                "-std=c++14",  // Specify the C++ standard
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "-g",
